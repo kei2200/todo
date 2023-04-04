@@ -19,13 +19,13 @@ import HelloWorld from "./components/HelloWorld.vue"
 
 import theHeader from './components/the-header.vue';
 import theFooter from './components/the-footer.vue';
-
+import MainTodo from  './components/MainTodo.vue';
 </script>
 
 <template>
   <div class="content">
       <theHeader />
-      <main>メイン</main>
+      <main><MainTodo /></main>
       <theFooter />
   </div>
 </template>

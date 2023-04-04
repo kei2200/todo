@@ -4,8 +4,7 @@
   </header>
 </template>
 
-<style>
-
+<style scoped>
 .title{
   width: 100%;
   background-color: #e3f2fd;
