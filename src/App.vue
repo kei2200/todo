@@ -1,7 +1,7 @@
+<!--
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue"
 </script>
-
 <template>
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -13,8 +13,27 @@ import HelloWorld from "./components/HelloWorld.vue"
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
+-->
+
+<script setup>
+
+import theHeader from './components/the-header.vue';
+import theFooter from './components/the-footer.vue';
+
+</script>
+
+<template>
+  <div class="content">
+      <theHeader />
+      <main>メイン</main>
+      <theFooter />
+  </div>
+</template>
 
 <style scoped>
+@import 'assets/css/common.css'; 
+@import 'assets/css/page.css'; 
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -27,4 +46,5 @@ import HelloWorld from "./components/HelloWorld.vue"
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+*/
 </style>

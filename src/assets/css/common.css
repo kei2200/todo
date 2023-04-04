@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+}
+button, input, select, textarea {
+  margin: 0;
+}
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+iframe {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td, th {
+  padding: 0;
+}
+td:not([align]), th:not([align]) {
+  text-align: left;
+}
+main, article, section {
+  display: block;
+}
+:root {
+  overflow-y: scroll;
+  line-height: 2;
+  font-size: 18px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: none;
+}
+body {
+  font-family: "Hiragino Kaku Gothic StdN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 14px;
+  color: #333333;
+  position: relative;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+:-webkit-any-link {
+  text-decoration: none;
+}
+:-moz-any-link {
+  text-decoration: none;
+}
+a,
+:any-link {
+  text-decoration: none;
+}
+a {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+video {
+  -webkit-filter: drop-shadow(0px 0px #000);
+          filter: drop-shadow(0px 0px #000);
+}
+ul, ol {
+  list-style: none;
+}
+@media (min-width:641px) {
+  a[href^="tel:"] {
+    pointer-events: none;
+    cursor: default;
+  }
+  .for-sp {
+    display: none !important;
+  }
+  .for-tab {
+    display: none !important;
+  }
+}
+@media (max-width:960px) and (min-width:751px) {
+  .for-tab {
+    display: none !important;
+  }
+  .for-sp {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .for-pc {
+    display: none !important;
+  }
+  .for-tab {
+    display: none !important;
+  }
+}
+@media print {
+  .for-pc {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=common.css.map */
